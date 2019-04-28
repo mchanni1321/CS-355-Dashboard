@@ -1,0 +1,18 @@
+html {
+	background-color: #f3b9f7;
+}
+
+h2 {
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	color: #4e18ba;
+}
+
+#addressCount {
+	width: 25px;
+}
+
+div #result {
+	font-family: 'Courier', sans-serif;
+}
+

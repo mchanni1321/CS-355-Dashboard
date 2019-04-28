@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 3</title>
+	<link href="address.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+</head>
+<body>
+	<h2> IP ADDRESSING </h2>
+	<div class="addressType">
+		<div>
+			<form>
+				<p style="font-family:'Francois One", sans-serif"> Select an IP Address </p>
+				<input onclick="myFunction()" type="radio" name="addressType" value="IPv4"> <label for="ip4"> IPv4 </label><br>
+				<input onclick="myFunction()" type="radio" name="addressType" value="IPv6"> <label for="ip6"> IPv6 </label><br>
+				<p style="font-family:'Francois One", sans-serif"> IPv4: Select a Class </p>
+					<input type="radio" id="option1" name="classType" value="Class A"> <label for="a"> Class A </label><br>
+					<input type="radio" id="option2" name="classType" value="Class B"> <label for="b"> Class B </label><br>
+					<input type="radio" id="option3" name="classType" value="Class C"> <label for="c"> Class C </label><br>
+					<input type="radio" id="option4" name="classType" value="Class D"> <label for="d"> Class D </label><br>
+					<input type="radio" id="option5" name="classType" value="Class E"> <label for="e"> Class E </label><br><br>
+					<input type="radio" id="option6" name="classType" value="classless"><label for="classless"> Classless </label><br><br>
+				<p style="font-family:'Francois One", sans-serif"> IPv6 </p>
+				<input id="ip6" type="checkbox" name="compression" value="Zero Compression"> <label for="comp"> Zero Compression </label><br><br>
+				<label for="count">Number of Addresses:</label>
+				<input type="text" name="addressCount" id="addressCount"><br><br>
+				<button type="button" onclick="generateAddress()"> Generate Addresses </button>
+				<div id="result"></div>
+			</form>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="addresses.js"></script>
+</body>
+</html>

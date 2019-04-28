@@ -1,0 +1,37 @@
+html {
+	background-color: #f3b9f7;
+}
+
+h2 {
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	color: #4e18ba;
+}
+
+table {
+	table-layout: auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+.port {
+	text-align: right;
+}
+
+
+th, td {
+	font-family: Helvetica;
+	padding: 15px;
+}
+
+#urls {
+	font-family: Helvetica;
+}
+
+#list1, #list2, #list3, #list4, #list5, #list6, #list7 {
+	font-family: Helvetica;
+}
